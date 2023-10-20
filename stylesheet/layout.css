@@ -1,0 +1,896 @@
+body {
+    width: 1440px;
+    height: 12000px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.text {
+    width: 1440px;
+    text-align: center;
+    padding-top: 220px;
+}
+.first_screen {
+    height: 930px;
+    width: 1440px;
+    position: relative;
+}
+.first_screen h1 {
+    font-family: 'FantasqueRegular';
+    font-size: 200px;
+    color: #262626;
+    text-transform: uppercase;
+}
+.first_screen h2 {
+    font-family: 'FantasqueRegular';
+    font-size: 120px;
+    color: #262626;
+    text-transform: uppercase;
+}
+.first_screen h3 {
+    font-family: 'FantasqueRegular';
+    font-size: 30px;
+    color: #262626;
+    text-transform: uppercase;
+    position: relative;
+    top: 130px;
+    letter-spacing: 3px;
+}
+.first_scan {
+    width: 1440px;
+    height: 930px;
+    position: absolute;
+    background: url(../images/1scan.svg);
+    top: 0;
+    left: 0;
+}
+.first_screen h3::before {
+    position: absolute;
+    content: url(../images/1check.svg);
+    bottom: 40px;
+}
+.second_screen {
+    height: 1024px;
+    width: 1440px;
+    position: relative;
+    background: url(../images/2back.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.second_screen > div {
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 360px;
+}
+.text_left {
+    margin-right: 90px;
+}
+.text_left h1 {
+    font-family: 'FantasqueBold';
+    font-size: 88px;
+    line-height: 70px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: #262626;
+    padding-top: 24px;
+}
+.text_left p {
+    font-family: 'FantasqueRegular';
+    font-size: 22px;
+    color: #262626;
+}
+.text_center {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_center p {
+    font-family: 'FantasqueRegular';
+    font-size: 22px;
+    color: #262626;
+}
+.text_center h1 {
+    font-family: 'FantasqueBold';
+    font-size: 60px;
+    line-height: 60px;
+    color: #262626;
+}
+.text_center h3 {
+    font-family: 'FantasqueBold';
+    font-size: 38px;
+    line-height: 60px;
+    color: #262626;
+}
+.text_right {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_right h1 {
+    font-family: 'FantasqueBold';
+    font-size: 60px;
+    line-height: 48px;
+    color: #262626;
+    padding-top: 16px;
+}
+.text_right p {
+    font-family: 'FantasqueRegular';
+    font-size: 22px;
+    color: #262626;
+}
+.text_right img {
+    width: 156px;
+    height: 213px;
+}
+.third_screen {
+    width: 1440px;
+    position: relative;
+}
+.boxes {
+    width: 1320px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.boxes1 {
+    width: 340px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.boxes2 {
+    width: 100%;
+    height: 692px;
+    position: relative;
+    border: 4px solid #262626;
+}
+.boxes2 h1 {
+    font-family: 'FantasqueItalic';
+    font-size: 400px;
+    rotate: -20deg;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.boxes2 svg {
+    position: absolute;
+}
+.boxes3 {
+    width: 450px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+#box1, #box2, #box3, #box5-1, #box5-2, #box6 {
+    border: 4px solid #262626;
+    display: flex;
+}
+.boxleft {
+    width: 330px;
+    height: 200px;
+}
+#box1 h5 {
+    font-family: 'FantasqueItalic';
+    font-size: 40px;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#box2 h2 {
+    font-family: 'FantasqueBoldItalic';
+    font-size: 180px;
+    color: #262626;
+    position: relative;
+    left: 24px;
+    bottom: 12px;
+}
+#box3 {
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.pict {
+    width: 280px;
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.pict > div {
+    width: 110px;
+    height: 148px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.pict img {
+    width: 92px;
+    height: 92px;
+    position: relative;
+}
+.pictcheck img {
+    width: 274px;
+    height: 40px;
+    position: relative;
+}
+#box3 h6 {
+    font-family: 'FantasqueBold';
+    font-size: 24px;
+    color: #262626;
+    display: flex;
+    text-align: center;
+}
+.boxright {
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid #262626;
+}
+.boxright img {
+    width: 92px;
+    height: 92px;
+    position: relative;
+    margin-top: 24px;
+}
+.boxright h6 {
+    font-family: 'FantasqueBold';
+    font-size: 24px;
+    color: #262626;
+    display: flex;
+    text-align: center;
+}
+.box5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+#box5-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+#box5-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.boxright::before {
+    position: absolute;
+    content: url(../images/3check5box.svg);
+    top: 0;
+}
+#box6 {
+    width: 442px;
+    height: 470px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#box6 h1 {
+    font-family: 'FantasqueBold';
+    font-size: 400px;
+    color: #262626;
+}
+#box6 h3 {
+    font-family: 'FantasqueRegular';
+    font-size: 60px;
+    color: #262626;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    left: 24px;
+}
+#box6::before {
+    position: absolute;
+    content: url(../images/3check6box.svg);
+    left: 340px;
+    top: 52px;
+}
+.circle-text {
+    width: 300px;
+    height: 300px;
+}
+text {
+    font-size: 20px;
+}
+textPath {
+    text-anchor: middle;
+}
+.separator {
+    width: 1440px;
+    margin: 60px 0 0 0;
+}
+.separator div {
+    width: 825px;
+    height: 74px;
+    font-family: 'FantasqueBold';
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #262626;
+    position: relative;
+    rotate: -10deg;
+    margin: 0 auto;
+    bottom: 248px;
+}
+.fourth_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: url(../images/eggscase.svg);
+}
+.leftpart {
+    width: 924px;
+    height: 906px;
+    position: absolute;
+}
+.texteggs {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 100px;
+    top: 200px;
+}
+.texteggs h1 {
+    font-family: 'FantasqueBold';
+    font-size: 140px;
+    color: #262626;
+}
+.texteggs h2 {
+    font-family: 'FantasqueRegular';
+    font-size: 100px;
+    color: #262626;
+}
+.crops {
+    width: 872px;
+    height: 334px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    left: 60px;
+    top: 260px;
+}
+.crops > div {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #262626;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative; 
+    border-radius: 100%;
+}
+.crops > div > p {
+    font-family: 'FantasqueRegular';
+    color: #262626;
+    position: absolute;
+}
+.f {
+    font-size: 264px;
+}
+.rightpart {
+    width: 300px;
+    height: 800px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    right: 80px;
+    top: 100px;
+}
+.rightpart h1 {
+    font-family: 'FantasqueItalic';
+    font-size: 360px;
+    color: #262626;
+    position: absolute;
+}
+.eggletter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eggletter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eggletter1 h1 {
+    rotate: 5deg;
+}
+.eggletter2 h1 {
+    rotate: -40deg;
+    right: 68px;
+    top: 460px;
+}
+.fifth_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+.showcase {
+    width: 1440px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.showcase h1 {
+    font-family: 'FantasqueBold';
+    font-size: 500px;
+    color: #262626;
+}
+.showcase h2 {
+    font-family: 'FantasqueBoldItalic';
+    font-size: 500px;
+    color: #262626;
+}
+.showcase h3 {
+    font-family: 'FantasqueItalic';
+    font-size: 500px;
+    color: #262626;
+}
+.showcase h4 {
+    font-family: 'FantasqueRegular';
+    font-size: 500px;
+    color: #262626;
+}
+.pricetags {
+    width: 1440px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.pricetag {
+    width: 300px;
+    height: 152px;
+    border: 2px solid #262626;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+}
+.pricename {
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    gap: 80px;
+    left: 16px;
+}
+.pricename img {
+    width: 84px;
+    height: 26px;
+}
+.price {
+    width: 164px;
+    height: 74px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 32px;
+    bottom: 12px;
+}
+.price1 {
+    width: 96px;
+    height: 74px;
+    font-family: 'FantasqueBold';
+    font-size: 92px;
+    color: #262626;
+}
+.price2 {
+    width: 58px;
+    height: 44px;
+    font-family: 'FantasqueBold';
+    font-size: 55px;
+    color: #262626;
+}
+.price3 {
+    height: 19px;
+    font-family: 'FantasqueBold';
+    font-size: 24px;
+    color: #262626;
+    text-transform: uppercase;
+}
+.sixth_screen {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: 0 40px 0 40px;
+}
+.firstlinecup {
+    width: 1440px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondlinecup {
+    width: 764px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+}
+.thirdlinecup {
+    width: 1440px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourthlinecup {
+    width: 764px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+}
+.seventh_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seventh_screen h1 {
+    font-family: 'FantasqueItalic';
+    font-size: 400px;
+    color: #262626;
+}
+.seventh_screen h2 {
+    font-family: 'FantasqueRegular';
+    font-size: 200px;
+    color: #262626;
+}
+.seventh_screen h3 {
+    font-family: 'FantasqueBold';
+    font-size: 100px;
+    color: #262626;
+}
+.seventh_screen p {
+    font-family: 'FantasqueRegular';
+    font-size: 32px;
+    color: #262626;
+}
+.toppart {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+.topparttext {
+    width: 496px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: auto;
+    right: 40px;
+}
+.middlepart {
+    width: 1243px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.bottompart {
+    width: 562px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: auto;
+    left: 40px;
+}
+.bottompart h2 {
+    text-align: right;
+}
+.bottompart h4 {
+    text-align: right;
+    letter-spacing: -10px;
+    font-family: 'FantasqueRegular';
+    font-size: 200px;
+    color: #262626;
+}
+.bottompart h3 {
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.tpimg {
+    width: 850px;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+.tpimg1 {
+    rotate: -180deg;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+.tpimg2 {
+    rotate: 40deg;
+    position: absolute;
+    left: 240px;
+}
+.tpimg3 {
+    rotate: 220deg;
+    position: absolute;
+    right: 40px;
+    bottom: 120px
+}
+.separator2 {
+    width: 1440px;
+    margin: 60px 0 0 0;
+}
+.separator2 div {
+    width: 858px;
+    height: 74px;
+    font-family: 'FantasqueBold';
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #262626;
+    position: relative;
+    rotate: 10deg;
+    margin: 0 auto;
+    bottom: 248px;
+}
+/* .eight_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+.firstlinepack {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondlinepack {
+    width: 764px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 280px;
+}
+.glyphtext {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.glyphtext h1 {
+    font-family: 'FantasqueBold';
+    font-size: 220px;
+    color: #262626;
+}
+.glyphtext h3 {
+    position: relative;
+    font-family: 'FantasqueBold';
+    font-size: 48px;
+    color: #262626;
+    rotate: -90deg;
+}
+.glyphtext p {
+    width: 415px;
+    position: relative;
+    font-family: 'FantasqueRegular';
+    font-size: 32px;
+    color: #262626;
+}
+.minitextglyph {
+    position: relative;
+    display: flex;
+} */
+.ninth_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.checkrollfirst {
+    height: 888px;
+    background-image: url(../images/checkroll.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.chrfcontent {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkrollfirst p {
+    font-family: 'FantasqueRegular';
+    font-size: 34px;
+    color: #262626;
+}
+.checkrollfirst h1 {
+    font-family: 'FantasqueBold';
+    font-size: 260px;
+    color: #262626;
+}
+.checkrollfirst h3 {
+    width: 288px;
+    font-family: 'FantasqueBold';
+    font-size: 68px;
+    text-align: center;
+    line-height: 80%;
+    color: #262626;
+}
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkrollsecond {
+    height: 888px;
+    background-image: url(../images/checkroll.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tenth_screen {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checktextimages {
+    width: 1440px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    left: 40px;
+}
+.checktext {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 40px;
+}
+.checktext h1 {
+    font-family: 'FantasqueBoldItalic';
+    font-size: 100px;
+    color: #262626;
+}
+.checktext h2 {
+    font-family: 'FantasqueItalic';
+    font-size: 90px;
+    color: #262626;
+}
+.checktext h3 {
+    font-family: 'FantasqueRegular';
+    font-size: 80px;
+    color: #262626;
+}
+.checktext h4 {
+    font-family: 'FantasqueRegular';
+    font-size: 70px;
+    color: #262626;
+}
+.checktext h5 {
+    font-family: 'FantasqueRegular';
+    font-size: 60px;
+    color: #262626;
+}
+.checktext h6 {
+    font-family: 'FantasqueRegular';
+    font-size: 50px;
+    color: #262626;
+}
+.ivrit {
+    font-family: 'FantasqueRegular';
+    font-size: 40px;
+    color: #262626;
+}
+.arabic {
+    font-family: 'FantasqueRegular';
+    font-size: 30px;
+    color: #262626;
+}
+.quantitylang {
+    right: 100px;
+    bottom: 24px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 80px;
+}
+.quantitylang h1 {
+    font-family: 'FantasqueBold';
+    font-size: 240px;
+    color: #262626;
+    letter-spacing: -14px;
+    line-height: 80%;
+}
+.quantitylang h3 {
+    font-family: 'FantasqueBold';
+    font-size: 60px;
+    color: #262626;
+    line-height: 80%;
+}
+footer {
+    width: 1440px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    width: 258px;
+    height: 110px;
+}
+.foothertext {
+    font-family: 'FantasqueRegular';
+    font-size: 32px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
