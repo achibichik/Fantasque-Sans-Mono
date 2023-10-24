@@ -1,9 +1,5 @@
 body {
-    width: 1440px;
-    height: 12000px;
-    position: relative;
-    display: block;
-    margin: 0 auto;
+    overflow-x: hidden;
 }
 .text {
     width: 1440px;
@@ -88,6 +84,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+.text_center img {
+    width: 269px;
+    height: 88px;
 }
 .text_center p {
     font-family: 'FantasqueRegular';
@@ -151,10 +152,14 @@ body {
     gap: 8px;
 }
 .boxes2 {
-    width: 100%;
-    height: 692px;
-    position: relative;
+    width: 500px;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border: 4px solid #262626;
+    padding: 24px 0;
 }
 .boxes2 h1 {
     font-family: 'FantasqueItalic';
@@ -165,9 +170,16 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-}
-.boxes2 svg {
     position: absolute;
+}
+.middle4box {
+    width: 442px;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 .boxes3 {
     width: 450px;
@@ -184,23 +196,21 @@ body {
 .boxleft {
     width: 330px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #box1 h5 {
     font-family: 'FantasqueItalic';
     font-size: 40px;
     color: #262626;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
 }
-#box2 h2 {
+#box2 {
     font-family: 'FantasqueBoldItalic';
     font-size: 180px;
     color: #262626;
-    position: relative;
-    left: 24px;
-    bottom: 12px;
+    bottom: 40px;
 }
 #box3 {
     width: 330px;
@@ -312,9 +322,8 @@ body {
     top: 40px;
     left: 24px;
 }
-#box6::before {
+#box6 img {
     position: absolute;
-    content: url(../images/3check6box.svg);
     left: 340px;
     top: 52px;
 }
@@ -347,22 +356,21 @@ textPath {
 .fourth_screen {
     width: 1440px;
     height: 1024px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     background: url(../images/eggscase.svg);
 }
 .leftpart {
     width: 924px;
     height: 906px;
-    position: absolute;
+    margin-left: 56px;
+    margin-top: 197px;
 }
 .texteggs {
     display: flex;
-    position: relative;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    left: 100px;
-    top: 200px;
+    text-align: center;
 }
 .texteggs h1 {
     font-family: 'FantasqueBold';
@@ -377,13 +385,11 @@ textPath {
 .crops {
     width: 872px;
     height: 334px;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    left: 60px;
-    top: 260px;
+    margin: 60px 0 0 20px;
 }
 .crops > div {
     width: 160px;
@@ -395,60 +401,106 @@ textPath {
     border-radius: 100%;
 }
 .crops > div > p {
-    font-family: 'FantasqueRegular';
     color: #262626;
     position: absolute;
 }
 .f {
     font-size: 264px;
+    font-family: 'FantasqueItalic';
+}
+.h {
+    font-size: 264px;
+    font-family: 'FantasqueRegular';
+}
+.n {
+    font-size: 362px;
+    font-family: 'FantasqueRegular';
+}
+.d {
+    font-size: 264px;
+    font-family: 'FantasqueRegular';
+}
+.g {
+    font-size: 450px;
+    font-family: 'FantasqueRegular';
+}
+.sh {
+    font-size: 264px;
+    font-family: 'FantasqueItalic';
+}
+.ts {
+    font-size: 300px;
+    font-family: 'FantasqueRegular';
+}
+.z {
+    font-size: 374px;
+    font-family: 'FantasqueRegular';
+}
+.l {
+    font-size: 264px;
+    font-family: 'FantasqueItalic';
+}
+.e {
+    font-size: 320px;
+    font-family: 'FantasqueRegular';
 }
 .rightpart {
     width: 300px;
     height: 800px;
-    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 60px;
-    right: 80px;
-    top: 100px;
+    gap: 32px;
+    margin-right: 80px;
+    margin-top: 100px;
 }
 .rightpart h1 {
     font-family: 'FantasqueItalic';
     font-size: 360px;
     color: #262626;
-    position: absolute;
 }
 .eggletter1 {
+    width: 312px;
+    height: 420px;
+    background: url(../images/eggtop.svg);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .eggletter2 {
+    width: 312px;
+    height: 420px;
+    background: url(../images/eggbuttom.svg);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .eggletter1 h1 {
     rotate: 5deg;
 }
 .eggletter2 h1 {
+    margin-top: 26px;
+    margin-right: 8px;
     rotate: -40deg;
-    right: 68px;
-    top: 460px;
 }
 .fifth_screen {
     width: 1440px;
-    height: 1024px;
-    position: relative;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .showcase {
-    width: 1440px;
-    position: relative;
+    width: 1320px;
+    height: 360px;
+    line-height: 1400%;
     display: flex;
     justify-content: center;
     gap: 60px;
+    border-top: 3px solid black;
+    margin: 0 60px 0 60px;
 }
 .showcase h1 {
     font-family: 'FantasqueBold';
@@ -471,16 +523,19 @@ textPath {
     color: #262626;
 }
 .pricetags {
-    width: 1440px;
-    position: relative;
+    width: 1320px;
     display: flex;
     justify-content: center;
     gap: 12px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0 60px 0 60px;
 }
 .pricetag {
     width: 300px;
     height: 152px;
-    border: 2px solid #262626;
+    border-left: 2px solid #262626;
+    border-right: 2px solid #262626;
     display: flex;
     position: relative;
     align-items: flex-end;
@@ -539,11 +594,9 @@ textPath {
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    margin: 0 40px 0 40px;
 }
 .firstlinecup {
-    width: 1440px;
-    position: relative;
+    width: 1240px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -557,8 +610,7 @@ textPath {
     top: 100px;
 }
 .thirdlinecup {
-    width: 1440px;
-    position: relative;
+    width: 1240px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -604,16 +656,13 @@ textPath {
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 40px;
 }
 .topparttext {
     width: 496px;
-    position: relative;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: auto;
-    right: 40px;
+    justify-content: flex-end;
 }
 .middlepart {
     width: 1243px;
@@ -622,15 +671,64 @@ textPath {
     text-align: center;
     justify-content: flex-start;
     margin: 0 auto;
+    z-index: 99;
+}
+.middlecrops > div {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #262626;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative; 
+    border-radius: 100%;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+}
+.middlecrops > div > p {
+    color: #262626;
+    position: absolute;
+}
+.m {
+    font-size: 264px;
+    font-family: 'FantasqueItalic';
+    margin: 40px 116px 0 0;
+    right: -41px;
+}
+.m2 {
+    font-size: 264px;
+    font-family: 'FantasqueItalic';
+    margin: 200px 0 0 116px;
+    left: 120px;
 }
 .bottompart {
-    width: 562px;
-    position: relative;
+    width: 1440px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomtext {
+    width: 562px;
     text-align: left;
     margin-right: auto;
-    left: 40px;
+    margin-left: 40px;
+}
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+.bread {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bpimg3 {
+    rotate: 20deg;
+    position: absolute;
+    right: 680px;
+    bottom: 188px;
 }
 .bottompart h2 {
     text-align: right;
@@ -642,6 +740,9 @@ textPath {
     font-size: 200px;
     color: #262626;
 }
+.bottompart h4 span {
+    letter-spacing: -5px;
+}
 .bottompart h3 {
     width: 500px;
     position: relative;
@@ -650,7 +751,7 @@ textPath {
     text-align: left;
 }
 .tpimg {
-    width: 850px;
+    width: 836px;
     height: 300px;
     display: flex;
     position: relative;
@@ -669,8 +770,8 @@ textPath {
 .tpimg3 {
     rotate: 220deg;
     position: absolute;
-    right: 40px;
-    bottom: 120px
+    right: 32px;
+    bottom: 168px;
 }
 .separator2 {
     width: 1440px;
@@ -688,32 +789,44 @@ textPath {
     margin: 0 auto;
     bottom: 248px;
 }
-/* .eight_screen {
+.eight_screen {
     width: 1440px;
-    height: 1024px;
-    position: relative;
+    height: 880px;
 }
 .firstlinepack {
-    width: 100%;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 40px 0 40px;
 }
 .secondlinepack {
     width: 764px;
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     top: 280px;
 }
+.glyphs {
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px 0 60px;
+    text-align: center;
+}
+.arrows {
+    width: 346px;
+    height: 370px;
+}
+.que {
+    width: 346px;
+    height: 370px;
+}
 .glyphtext {
-    width: 100%;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 40px;
 }
 .glyphtext h1 {
     font-family: 'FantasqueBold';
@@ -721,23 +834,27 @@ textPath {
     color: #262626;
 }
 .glyphtext h3 {
-    position: relative;
+    width: 150px;
+    height: 38px;
     font-family: 'FantasqueBold';
     font-size: 48px;
     color: #262626;
     rotate: -90deg;
+    margin-left: -70px;
 }
 .glyphtext p {
     width: 415px;
-    position: relative;
     font-family: 'FantasqueRegular';
     font-size: 32px;
     color: #262626;
 }
 .minitextglyph {
-    position: relative;
+    width: 380px;
+    height: 180px;
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+}
 .ninth_screen {
     width: 1440px;
     height: 1024px;
@@ -885,6 +1002,7 @@ footer {
 footer img {
     width: 258px;
     height: 110px;
+    margin-right: 60px;
 }
 .foothertext {
     font-family: 'FantasqueRegular';
@@ -893,4 +1011,5 @@ footer img {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 60px;
 }
