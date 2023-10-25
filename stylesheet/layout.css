@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .text {
     width: 1440px;
@@ -1042,7 +1043,7 @@ textPath {
 #scan8 {
     z-index: 100;
     position: absolute;
-    left: 446px;
+    margin-left: 449px;
     margin-top: 340px;
 }
 .linepack {
