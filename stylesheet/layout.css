@@ -57,6 +57,14 @@ body {
     justify-content: center;
     align-items: center;
 } 
+.lable1 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    left: 60px;
+    top: 8px;
+    position: absolute;
+}
 .text_left, .text_center, .text_right {
     width: 300px;
     height: 360px;
@@ -166,6 +174,13 @@ body {
 .third_screen {
     width: 1440px;
     position: relative;
+}
+.third_screen p {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    margin-left: 60px;
+    margin-bottom: 24px;
 }
 .third_screen > img {
     z-index: 100;
@@ -400,6 +415,14 @@ textPath {
     justify-content: space-between;
     background: url(../images/eggscase.svg);
 }
+.lable2 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    margin-bottom: 24px;
+    margin-left: 60px;
+    position: absolute;
+}
 #scan4 {
     z-index: 100;
     position: absolute;
@@ -535,10 +558,17 @@ textPath {
 }
 .fifth_screen {
     width: 1440px;
-    height: 540px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+.fifth_screen p {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    margin-bottom: 24px;
+    margin-left: 60px;
 }
 #scan5 {
     z-index: 100;
@@ -668,6 +698,15 @@ textPath {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    position: relative;
+}
+.lable3 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    position: absolute;
+    top: 24px;
+    left: 60px;
 }
 #scan6 {
     z-index: 100;
@@ -687,7 +726,7 @@ textPath {
     height: 88px;
     position: relative;
     left: 360px;
-    top: 120px;
+    top: 90px;
 }
 .bottompict {
     width: 220px;
@@ -773,6 +812,14 @@ textPath {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.lable4 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    position: absolute;
+    top: -80px;
+    left: 60px;
 }
 #scan7 {
     z-index: 100;
@@ -956,6 +1003,13 @@ textPath {
     height: 880px;
     position: relative;
 }
+.lable5 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    margin-left: 60px;
+    margin-bottom: 47px;
+}
 .buble2 {
     width: 440px;
     height: 250px;
@@ -1073,11 +1127,19 @@ textPath {
 }
 .ninth_screen {
     width: 1440px;
-    height: 1024px;
+    height: 1100px;
     position: relative;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+}
+.lable6 {
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    position: absolute;
+    top: 60px;
+    left: 36px;
 }
 #scan9 {
     z-index: 100;
@@ -1209,6 +1271,14 @@ textPath {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.lable7{
+    font-family: 'FantasqueRegular';
+    font-size: 24px;
+    line-height: 90%;
+    position: absolute;
+    top: 24px;
+    left: 38px;
 }
 #scan10 {
     z-index: 100;
