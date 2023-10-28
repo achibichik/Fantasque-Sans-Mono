@@ -1,18 +1,3 @@
 @import url('reset.css');
 @import url('layout.css');
-@font-face {
-    font-family: 'FantasqueBold'; 
-    src: url(../font/FantasqueSansMono-Bold.ttf);
-}
-@font-face {
-    font-family: 'FantasqueBoldItalic'; 
-    src: url(../font/FantasqueSansMono-BoldItalic.ttf);
-}
-@font-face {
-    font-family: 'FantasqueItalic'; 
-    src: url(../font/FantasqueSansMono-Italic.ttf);
-}
-@font-face {
-    font-family: 'FantasqueRegular'; 
-    src: url(../font/FantasqueSansMono-Regular.ttf);
-}
+@import url('fonts.css');
